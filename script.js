@@ -52,7 +52,7 @@ btnSenha.addEventListener('click', () => {
     }
 });
 
-btnContador = document.querySelector("#btnContador");
+const btnContador = document.querySelector("#btnContador");
 
 let segundos = 30;
 
