@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Tattoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <h1>Black Tattoo</h1>
+            <button id="btnTema">Dark Mode</button>
+        </div>
+        <p class="subtitulo">Encontre inspiração para sua próxima tatuagem...</p>
+    </header>
+
+    <main>
+        <section class="usuario">
+            <h4>Digite seu nome:</h4>
+            <input type="text" id="nome" placeholder="Seu nome...">
+            <p id="mensagemNome">Digite seu nome acima.</p>
+        </section>
+
+        <section class="galeria">
+            <div class="card">
+                <img class="imagemTattoo" src="images/tigreoldschool.png" alt="Tatuagem" id="imagem1">
+                <h2>Old School</h2>
+                <p>Estilo tradicional com desenhos marcantes.</p>
+                <button class="btnImagem" id="btnImagem1">Ver outra foto</button>
+            </div>
+
+            <div class="card">
+                <img class="imagemTattoo" src="images/caveirarealismo.jpg" alt="Tatuagem" id="imagem2">
+                <h2>Realismo</h2>
+                <p>Desenhos detalhados e com aparência real.</p>
+                <button class="btnImagem" id="btnImagem2">Ver outra foto</button>
+            </div>
+
+            <div class="card">
+                <img class="imagemTattoo" src="images/rosablackwork.jpg" alt="Tatuagem" id="imagem3">
+                <h2>Blackwork</h2>
+                <p>Trabalhos utilizando principalmente tinta preta.</p>
+                <button class="btnImagem" id="btnImagem3">Ver outra foto</button>
+            </div>
+
+            <div class="card">
+                <img class="imagemTattoo" src="images/ancoraminimalista.jpg" alt="Tatuagem" id="imagem4">
+                <h2>Minimalista</h2>
+                <p>Desenhos simples, delicados e pequenos.</p>
+                <button class="btnImagem" id="btnImagem4">Ver outra foto</button>
+            </div>
+        </section>
+
+        <section class="senha">
+            <h2>Área de Acesso</h2>
+            <div class="campoSenha">
+                <input type="password" id="senha" placeholder="Digite sua senha">
+                <button id="btnSenha">Mostrar</button>
+            </div>
+        </section>
+
+        <section class="contador">
+            <h2>Promoção para agendamento</h2>
+            <p>A promoção termina em:</p>
+            <span id="tempo">30</span> segundos
+            <br><br>
+            <button id="btnContador">Pausar contador</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Black Tattoo © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

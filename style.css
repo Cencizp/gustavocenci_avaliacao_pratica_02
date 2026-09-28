@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+header{
+    background-color: #111;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.topo h1{
+    font-size: 36px;
+}
+.subtitulo{
+    margin-top: 10px;
+}
+body.dark{
+    background-color: #181818;
+    color: white;
+}
+body.dark .card{
+    background-color: #252525;
+}
+body.dark .contador{
+    background-color: #252525;
+}
+body.dark input{
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.usuario{
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+.usuario input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.campoSenha input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+#mensagemNome{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.galeria {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.imagemTattoo{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card h2{
+    margin: 15px 0 8px;
+}
+.card p{
+    min-height: 45px;
+    margin-bottom: 15px;
+}
+.btnImagem{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.mensagem{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #222;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    opacity: 0;
+    pointer-events: none;
+}
+.senha{
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.campoSenha{
+    display: flex;
+    gap: 10px;
+}
+.campoSenha input{
+    margin-top: 0;
+}
+#btnSenha{
+    background-color: #333;
+    color: white;
+}
+.contador{
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+}
+#tempo{
+    font-size: 40px;
+    font-weight: bold;
+}
+footer{
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
